@@ -14,6 +14,10 @@
 		0B0DF34720314973002FB1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF34520314973002FB1F4 /* LaunchScreen.storyboard */; };
 		0B0DF35220314973002FB1F4 /* TechtaGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0DF35120314973002FB1F4 /* TechtaGramTests.swift */; };
 		0B0DF35D20314973002FB1F4 /* TechtaGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0DF35C20314973002FB1F4 /* TechtaGramUITests.swift */; };
+		0B0DF3E420343202002FB1F4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF3E320343201002FB1F4 /* icon.png */; };
+		0B0DF3E620357F07002FB1F4 /* kappa4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF3E520357F07002FB1F4 /* kappa4.png */; };
+		0B0DF3E820357F71002FB1F4 /* kira.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF3E720357F70002FB1F4 /* kira.png */; };
+		0B0DF3EA20357F99002FB1F4 /* neko.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF3E920357F99002FB1F4 /* neko.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0B0DF35820314973002FB1F4 /* TechtaGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtaGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0DF35C20314973002FB1F4 /* TechtaGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtaGramUITests.swift; sourceTree = "<group>"; };
 		0B0DF35E20314973002FB1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0DF3E320343201002FB1F4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0B0DF3E520357F07002FB1F4 /* kappa4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kappa4.png; sourceTree = "<group>"; };
+		0B0DF3E720357F70002FB1F4 /* kira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kira.png; sourceTree = "<group>"; };
+		0B0DF3E920357F99002FB1F4 /* neko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neko.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		0B0DF33B20314973002FB1F4 /* TechtaGram */ = {
 			isa = PBXGroup;
 			children = (
+				0B0DF3E320343201002FB1F4 /* icon.png */,
 				0B0DF33C20314973002FB1F4 /* AppDelegate.swift */,
 				0B0DF33E20314973002FB1F4 /* ViewController.swift */,
 				0B0DF34020314973002FB1F4 /* Main.storyboard */,
 				0B0DF34320314973002FB1F4 /* Assets.xcassets */,
 				0B0DF34520314973002FB1F4 /* LaunchScreen.storyboard */,
 				0B0DF34820314973002FB1F4 /* Info.plist */,
+				0B0DF3E520357F07002FB1F4 /* kappa4.png */,
+				0B0DF3E720357F70002FB1F4 /* kira.png */,
+				0B0DF3E920357F99002FB1F4 /* neko.png */,
 			);
 			path = TechtaGram;
 			sourceTree = "<group>";
@@ -232,6 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0DF3EA20357F99002FB1F4 /* neko.png in Resources */,
+				0B0DF3E420343202002FB1F4 /* icon.png in Resources */,
+				0B0DF3E620357F07002FB1F4 /* kappa4.png in Resources */,
+				0B0DF3E820357F71002FB1F4 /* kira.png in Resources */,
 				0B0DF34720314973002FB1F4 /* LaunchScreen.storyboard in Resources */,
 				0B0DF34420314973002FB1F4 /* Assets.xcassets in Resources */,
 				0B0DF34220314973002FB1F4 /* Main.storyboard in Resources */,
@@ -427,7 +443,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45GAA585DR;
 				INFOPLIST_FILE = TechtaGram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alisa.TechtaGram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +459,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45GAA585DR;
 				INFOPLIST_FILE = TechtaGram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alisa.TechtaGram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
